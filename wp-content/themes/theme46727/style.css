@@ -1,0 +1,132 @@
+/*--
+	Theme Name: theme46727
+	Theme URI: http://template-help.com/
+	Description: A theme for Wordpress 4.4.x + from Template-Help.com Collection
+	Author: Template_Help.com
+	Author URL: http://www.Template-Help.com/
+	Template: CherryFramework
+	Version: 3.1.5
+	MotoPress Version: 1.0
+--*/
+
+/* ----------------------------------------
+	Please, You may put custom CSS here
+---------------------------------------- */
+
+
+/* -- General styles --*/
+
+h1, h2, h3, h4, h5{
+	color: #630027!important;
+}
+
+#back-top-wrapper #back-top span {
+    background: url(http://localhost/wordpress/wp-content/uploads/2016/08/top.png)!important
+   }
+
+
+/* -- Navigation --*/
+
+.top-header{
+	display: none!important;
+}
+
+.sf-menu > li > a {
+    
+    color: #efd04b!important;
+}
+
+
+/*-- slider --*/
+
+.camera_caption h1, .camera_caption h2{
+	color: #efd04b!important;
+}
+
+.custom-homepage-list{
+	margin-top: 50px;
+}
+
+.home-banner h5 {
+    margin-bottom: 10px!important;
+}
+
+.home-banner h3{
+	padding: 0 28px;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.home1 + p{
+	color: #000!important;
+}
+
+/* -- Our Services List --*/
+
+.home .list.styled.custom-list ul li {
+  
+    background-image: url(images/btn.png)!important;
+}
+
+/* -- Our Business --*/
+
+.our-business p{
+	color: #000!important;
+	font-size: 1em;
+}
+
+/* -- custom footer --*/
+.footer{
+	display: none;
+}
+
+.custom-footer{
+	width: 100%;
+	background-image: url('http://localhost/wordpress/wp-content/uploads/2016/08/carbon-footer.jpg');
+	text-align: center;
+
+}
+
+.custom-footer h3 {
+
+color: #efd04b!important;
+
+}
+
+.footer-left{
+	width: 33%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer-middle{
+	width: 33%;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.footer-middle ul{
+	list-style: none;
+    display: inline-block;
+    text-align: left;
+    margin-left: 0;
+
+}
+
+.footer-middle ul a{
+	color: #fff;
+
+}
+
+.footer-middle ul a:hover{
+	color: #efd04b;
+	text-decoration: none!important;
+
+}
+
+.footer-right{
+	width: 33%;
+	display: inline-block;
+	vertical-align: top;
+}
