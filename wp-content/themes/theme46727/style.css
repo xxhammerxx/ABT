@@ -185,7 +185,7 @@ color: rgb(239, 208, 75);
 
 }
 
-.home-banner{
+#post-2013 .home-banner{
 	max-height: 243px;
 	-webkit-transition: max-height 1s; 
   -moz-transition: max-height 1s; 
@@ -194,7 +194,7 @@ color: rgb(239, 208, 75);
   transition: max-height 1s;  
 }
 
-.home-banner:hover{
+#post-2013 .home-banner:hover{
 	max-height: 760px !important
 }
 
