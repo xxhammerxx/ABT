@@ -20,9 +20,38 @@ h1, h2, h3, h4, h5{
 	color: #630027!important;
 }
 
+address {
+	color: #fff;
+    margin-top: 50px;
+    margin-right: 13px;
+
+}
+
+address h1, address h3{
+	color: #fff!important;
+}
+
 #back-top-wrapper #back-top span {
     background: url(http://localhost/wordpress/wp-content/uploads/2016/08/top.png)!important
    }
+
+.logo{
+	position: relative;
+	top: 10px;
+}
+
+/* -- Woocommerce mods --*/
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background-color: #630027!important;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+    background-color: #6B384C !important;
+    color: #fff;
+}
 
 
 /* -- Navigation --*/
@@ -36,6 +65,46 @@ h1, h2, h3, h4, h5{
     color: #efd04b!important;
 }
 
+#navbar-search{
+	border: 1px solid rgb(239, 208, 75);
+	border-radius: 5px;
+	height: 32px;
+}
+
+.menu-header-search{
+	position: relative;
+	top: 16px;
+	left: 10px;
+}
+.menu-header-search label{
+width: 10%;
+display: inline-block;
+color: rgb(239, 208, 75);
+}
+
+.menu-header-search input{
+	background-color: transparent;
+	border: none;
+	color: #fff;
+	width: 80%;
+	margin-bottom: 0px;
+}
+
+.menu-header-search input:focus {
+    outline: none !important;
+    border:none;
+    box-shadow: 0 0 0;
+    border-radius: 0;
+}
+
+#menu-item-cart {
+    float: right;
+}
+
+#menu-item-cart a{
+    background-image: none;
+    border-right: none;
+}
 
 /*-- slider --*/
 
@@ -75,6 +144,67 @@ h1, h2, h3, h4, h5{
 	font-size: 1em;
 }
 
+.wayne-profile {
+	float:left;
+	padding-right:20px;
+	padding-bottom:7px;
+	padding-top:7px;
+	width:210px;
+	height:210px;
+
+}
+
+/* -- contact page --*/
+
+.sub-text{
+	color: #000;
+	font-size: 13px;
+}
+
+.color-icon{
+	color: #5f0228;
+}
+
+/* --Bookings page --*/
+
+#post-2013 .title-box h2{
+	border-bottom: none!important;
+
+}
+
+.bookly-form{
+	margin-bottom: 20px!important;
+}
+
+#post-2013 .home-banner h5 {
+   padding: 0 15px;
+}
+
+#post-2013 .home-banner h3{
+	padding: 0 15px;
+
+}
+
+.home-banner{
+	max-height: 243px;
+	-webkit-transition: max-height 1s; 
+  -moz-transition: max-height 1s; 
+  -ms-transition: max-height 1s; 
+  -o-transition: max-height 1s; 
+  transition: max-height 1s;  
+}
+
+.home-banner:hover{
+	max-height: 760px !important
+}
+
+/* -- CART --*/
+
+input#coupon_code {
+    height: 30px;
+    width: 106px !important;
+}
+
 /* -- custom footer --*/
 .footer{
 	display: none;
@@ -84,19 +214,40 @@ h1, h2, h3, h4, h5{
 	width: 100%;
 	background-image: url('http://localhost/wordpress/wp-content/uploads/2016/08/carbon-footer.jpg');
 	text-align: center;
-
 }
 
 .custom-footer h3 {
 
 color: #efd04b!important;
+font-size: 1.3em;
 
+}
+
+.left-footer-wrap{
+	display: inline-block;
 }
 
 .footer-left{
 	width: 33%;
 	display: inline-block;
 	vertical-align: top;
+
+}
+
+.footer-left a{
+	color: #fff;
+
+}
+
+.footer-left a:hover {
+    color: #efd04b;
+    text-decoration: none !important;
+}
+
+.footer-left p{
+	margin-bottom: 5px;
+	text-align: left;
+	margin-left: -40px;
 }
 
 .footer-middle{
@@ -129,4 +280,7 @@ color: #efd04b!important;
 	width: 33%;
 	display: inline-block;
 	vertical-align: top;
+
+
 }
+

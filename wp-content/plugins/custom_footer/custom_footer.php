@@ -40,6 +40,10 @@ function pp_add_custom_footer_to_child(){ ?>
 
 	<div class="footer-left">
 		<h3>Policies &amp; Procedures</h3>
+		<div class="left-footer-wrap">
+		 <p><a href="#">Privacy Statement</a></p> 
+		 <p><a href="#">Terms & Conditions</a></p> 
+		</div>
 
 	</div>
 
@@ -52,7 +56,7 @@ function pp_add_custom_footer_to_child(){ ?>
 	</div>
 
 	<div class="footer-right">
-		<h3>&copy;&#32;Petersen</h3>
+		<h3>&copy;&#32;Petersen 2016</h3>
 
 	</div>
 

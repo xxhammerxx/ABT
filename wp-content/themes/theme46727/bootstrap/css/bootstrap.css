@@ -116,7 +116,7 @@ body {
 	font-family:Open Sans;
 	font-size:14px;
 	line-height:22px;
-	color:#969595;
+	color:#0d0d0d;
 	background-color:#d0d0d0;
 }
 a {
@@ -829,7 +829,7 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 	line-height:0;
 }
 .form-actions:after { clear:both; }
-.help-block, .help-inline { color:#bcbbbb; }
+.help-block, .help-inline { color:#333333; }
 .help-block {
 	display:block;
 	margin-bottom:11px;

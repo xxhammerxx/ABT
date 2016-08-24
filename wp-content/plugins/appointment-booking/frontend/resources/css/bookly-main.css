@@ -1,0 +1,618 @@
+/* Global */
+.ab-list-none { list-style: none; }
+.ab-left { float: left!important; }
+.ab-right { float: right!important; }
+.ab-clear { clear: both!important; }
+.ab-rtext { text-align: right; }
+.ab-bold { font-weight: bold!important; }
+.ab-list { margin-left: 10px!important; }
+.ab-clearBottom { margin-bottom: 0!important; }
+.ab-none { display: none!important; }
+.ab-nowrap { white-space: nowrap; }
+.ab-inline-block { display: inline-block!important; }
+.ab-btn { text-decoration: none; }
+
+/* Layout */
+.ab-row {
+    margin: 0 0 20px;
+    overflow: hidden;
+}
+.bookly-table {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+.bookly-table > * {
+    display: table-cell;
+    vertical-align: top;
+    width: auto;
+}
+
+/* Form Elements */
+.bookly-form {
+    margin: 0 auto;
+}
+.bookly-form * {
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: inherit;
+}
+.bookly-form input[type="text"],
+.bookly-form input[type="password"],
+.bookly-form select,
+.bookly-form textarea {
+    font-size: 14px;
+    line-height: normal;
+    border: 1px solid silver !important;
+    border-radius: 4px !important;
+    width: 100% !important;
+    height: auto !important;
+}
+.bookly-form input[type="text"],
+.bookly-form input[type="checkbox"],
+.bookly-form input[type="radio"],
+.bookly-form input[type="password"],
+.bookly-form select,
+.bookly-form textarea {
+    margin: 0 !important;
+    outline: none !important;
+}
+.bookly-form input[type="text"],
+.bookly-form input[type="password"],
+.bookly-form textarea {
+    padding: 6px 7px 5px !important;
+}
+.bookly-form select {
+    padding: 5px 6px 4px !important;
+}
+.bookly-form label {
+    float: none;
+    width: auto;
+}
+.bookly-form .ab-label-error {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.ab-formGroup > label,
+.ab-formGroup > .ab-label {
+    display: inline-block;
+    font-weight: bold;
+    padding: 0 0 0 2px !important;
+    margin: 0 !important;
+}
+.ab-formGroup > div {
+    margin-right: 14px;
+    margin-top: 5px;
+}
+.ab-formGroup:last-child > div {
+    margin-right: 0;
+}
+
+/* Buttons */
+.ab-nav-steps {
+    padding-top: 20px !important;
+    border-top: 1px solid silver !important;
+    overflow: hidden;
+}
+.ab-btn {
+    padding: 9px 18px!important;
+    border: 0!important;
+    min-width: 118px;
+    display: block;
+    text-align: center;
+    line-height: normal;
+    border-radius: 4px!important;
+    background: #f4662f;
+    cursor: pointer!important;
+    height: auto!important;
+    outline: none!important;
+}
+.ab-btn > span {
+    color: #fff!important;
+    font-size: 18px!important;
+    line-height: 17px!important;
+    font-weight: bold!important;
+    text-transform: uppercase!important;
+}
+.ab-time-next,
+.ab-time-prev {
+    width: 60px;
+    min-width: inherit;
+    background: #f4662f;
+    height: 35px!important;
+    padding: 0 5px!important;
+}
+.ab-time-next {
+    background-position: 50% -56px;
+    margin-left: 10px;
+}
+.ab-time-prev {
+    background-position: 50% 8px;
+}
+.bookly-round-button {
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    cursor: pointer!important;
+    padding: 0!important;
+    line-height: 0!important;
+    border: 0!important;
+    outline: none!important;
+}
+.bookly-round-button:first-child {
+    margin-right: 5px !important;
+}
+.ab-back-step {
+    margin-right: 10px;
+}
+.ab-mobile-prev-step {
+    margin-right: 10px;
+}
+
+/* Progress Tracker */
+.ab-progress-tracker {
+    margin: 0 0 20px !important;
+    padding: 0 !important;
+}
+.ab-progress-tracker > div {
+    padding-left: 4px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    overflow: hidden;
+}
+.ab-progress-tracker .step {
+    height: 15px;
+    background: #bec3c7;
+    margin-top: 5px;
+}
+.ab-progress-tracker > div:first-child .step {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.ab-progress-tracker > div:last-child .step {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.ab-progress-tracker > div:first-child {
+    padding-left: 0;
+}
+
+/* Service */
+.ab-service-step .ab-date-from {
+    cursor: text !important;
+}
+.ab-service-step .ab-available-date,
+.ab-service-step .ab-available-days,
+.ab-service-step .ab-time-range {
+    margin-bottom: 20px !important;
+}
+.ab-service-step .ab-available-date,
+.ab-service-step .ab-available-days {
+    margin-right: 14px !important;
+}
+.ab-service-step .ab-week-days {
+    width: auto;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.ab-service-step .ab-week-days li {
+    text-align: center !important;
+    padding: 0 !important;
+    min-width: 35px;
+}
+.ab-service-step .ab-week-days li label {
+    display: block;
+    width: 23px;
+    height: 23px;
+    padding: 0;
+    margin: 10px auto 0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.ab-service-step .ab-week-days li label.active {
+    background: #f56530 url("../images/checkbox.png") 0 0 no-repeat;
+}
+.ab-service-step .ab-week-days li label input {
+    visibility: hidden;
+}
+.ab-service-step .ab-time-range select {
+    width: auto !important;
+}
+.ab-mobile-step_1 {
+    margin-right: -14px;
+}
+.ab-mobile-step_1 .ab-nav-steps {
+    display: none;
+}
+
+/* Extras */
+.extra-attachment-image {
+    max-width: 150px;
+}
+.ab-extra-step .ab-extra {
+    display: inline-block;
+    width: 25%;
+    margin: 0 -2px!important;
+    margin-bottom: 2px!important;
+    cursor: pointer;
+    vertical-align: top!important;
+}
+.ab-extra-step div.ab-thumb {
+    border: 2px solid #bec3c7;
+    padding: 10px;
+    line-height: normal;
+    border-radius: 5px;
+    margin: 3px;
+    text-align: center;
+}
+.ab-extra-step div.ab-thumb div {
+    background-position: center;
+}
+.ab-extra-step div.ab-summary {
+    display: inline-block;
+    font-weight: bold;
+}
+.ab-extra .ab-count{
+    text-align: center;
+}
+.ab-extra .ab-count{
+    -webkit-columns: 2 90px;
+    -moz-columns: 2 90px;
+    columns: 2 90px;
+}
+.ab-extra .ab-count .ab-count-controls{
+    text-align: center;
+}
+.ab-extra .ab-count .ab-count-controls .ab-count-controls-wrap{
+    padding-top: 3px;
+}
+.ab-extra .ab-count .ab-extra-total{
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+}
+.ab-extra .ab-count input{
+    width: 30px !important;
+    text-align: center;
+    position: relative;
+    top: -2px;
+    border: 1px solid #999;
+}
+.ab-extra .ab-count .ab-extra-count-control{
+    width: 23px;
+    height: 23px;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    font-style: normal;
+    display: inline-block;
+}
+
+/* Cart */
+.ab-goto-cart {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+.ab-cart .ab-mobile-version {
+    display: none;
+}
+.ab-cart table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    border-bottom: 0!important;
+    table-layout: auto;
+    width: 100%;
+    margin: 0 !important;
+}
+.ab-cart table,
+.ab-cart th,
+.ab-cart td {
+    border: 1px solid #eaeaea;
+    border: 1px solid rgba(51, 51, 51, 0.1);
+    border-width: 0 0 1px 0;
+}
+.ab-cart th,
+.ab-cart td {
+    padding: 0.4em!important;
+}
+.ab-cart th {
+    border-width: 0 0 1px 0;
+    font-weight: 700;
+    padding-top: 0!important;
+}
+.ab-cart table tfoot th,
+.ab-cart table tfoot td {
+    border-bottom: 0;
+}
+
+/* Details */
+.ab-formGroup input[type="text"].ab-captcha {
+    display: block;
+    width: 160px !important;
+    margin: 10px 0 0 !important;
+}
+.ab-formGroup .intl-tel-input {
+    display: block;
+}
+.ab-formGroup .intl-tel-input input {
+    padding-left: 55px !important;
+}
+.ab-details-step .bookly-table,
+.ab-details-step .bookly-table > * {
+    overflow: visible !important;
+}
+.ab-formGroup textarea {
+    resize: vertical;
+}
+
+/* Payment */
+.bookly-form input.ab-user-coupon {
+    width: 100px !important;
+    margin: 0 10px !important;
+}
+.bookly-form select.ab-card-exp {
+    width: auto !important;
+    margin-right: 10px !important;
+}
+.bookly-form input.ab-card-cvc {
+    width: 50px !important;
+}
+.btn-apply-coupon {
+    display: inline-block;
+}
+.btn-apply-coupon span {
+    text-transform: capitalize !important;
+    font-weight: normal !important;
+}
+
+
+/* Login Form */
+.bookly-fade {
+    display: none;
+}
+.bookly-in {
+    display: block;
+}
+.bookly-close:hover,
+.bookly-close:focus,
+.bookly-close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: none;
+    border: 0;
+    margin-top: -35px;
+}
+.bookly-close:focus,
+.bookly-close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .5;
+    background: none;
+}
+.bookly-modal {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.bookly-modal .bookly-modal-dialog {
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    top: 100px;
+}
+.bookly-modal .bookly-modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+.bookly-modal .bookly-modal-content .bookly-modal-header {
+    min-height: 16.5px;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #666;
+}
+.bookly-modal .bookly-modal-content .bookly-modal-header h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+.bookly-modal .bookly-modal-content .bookly-modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+.bookly-modal .bookly-modal-content .bookly-modal-footer .bookly-btn-submit:focus,
+.bookly-modal .bookly-modal-content .bookly-modal-footer .bookly-btn-submit:active,
+.bookly-modal .bookly-modal-content .bookly-modal-footer .bookly-btn-submit:hover,
+.bookly-modal .bookly-modal-content .bookly-modal-footer .bookly-btn-submit {
+    display: inline-block;
+    padding: 6px 12px!important;
+    border: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.bookly-modal .bookly-modal-content .bookly-modal-footer .bookly-btn-cancel {
+    border: 0;
+    background: none;
+    color: #21759b;
+    cursor: pointer;
+    padding: 0;
+    vertical-align: -2px;
+    font-size: 14px;
+}
+.bookly-modal .bookly-modal-content .bookly-modal-body {
+    position: relative;
+    padding: 15px;
+}
+.bookly-modal .bookly-modal-content .bookly-modal-body .ab-formGroup label {
+    font-size: 14px;
+}
+@media (max-width: 768px) {
+    .bookly-modal .bookly-modal-dialog {
+        width: auto;
+        left: 15px;
+        right: 15px;
+        margin: 30px auto;
+        top: 50px;
+    }
+}
+
+/* Other */
+.ab--holder {
+    padding-top: 20px!important;
+    font-size: 100%!important;
+}
+::-webkit-input-placeholder {color:#bbb!important;}
+::-moz-placeholder          {color:#bbb!important;}/* Firefox 19+ */
+:-moz-placeholder           {color:#bbb!important;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#bbb!important;}
+
+/* Mobile */
+@media screen and (max-width: 650px) {
+    .ab-formGroup label:empty {
+        display: none!important;
+    }
+    .ab-formGroup > div {
+        margin-right: 0 !important;
+    }
+
+    .bookly-table > * {
+        display: block;
+    }
+    .bookly-table .ab-formGroup {
+        margin: 0 0 20px;
+        width: 100% !important;
+    }
+    .bookly-table .ab-formGroup:last-child {
+        margin: 0;
+    }
+
+    .ab-progress-tracker {
+        display: none;
+    }
+
+    .ab-mobile-step_1 .ab-nav-steps {
+        display: block;
+    }
+    .ab-mobile-step_2 {
+        display: none;
+    }
+
+    .ab-select-mobile {
+        width: 95%;
+        margin-top: 5px;
+    }
+
+    .ab-mobile-next-step, .ab-mobile-prev-step {
+        display: block!important;
+    }
+
+    .ab-mob-float-none {
+        float: none !important;
+    }
+
+    /* Service */
+    .ab-service-step .ab-available-date,
+    .ab-service-step .ab-available-days {
+        margin-right: 0 !important;
+    }
+    .ab-service-step .ab-week-days {
+        width: 100%;
+    }
+    .ab-service-step .ab-week-days li {
+        display: table-cell;
+    }
+    .ab-service-step .ab-time-to,
+    .ab-service-step .ab-time-from {
+        display: inline-block;
+        width: 48% !important;
+    }
+    .ab-service-step .ab-time-to {
+        float: right !important;
+    }
+    .ab-service-step .ab-time-range select {
+        width: 100%!important;
+    }
+    .ab-mobile-step_1 {
+        margin-right: 0;
+    }
+
+    .ab-not-time-screen {
+        height: auto!important;
+        margin-left: 0!important;
+        margin-bottom: 15px;
+        clear: both;
+    }
+    .ab-time-step {
+        clear: both;
+    }
+
+    .ab-btn {
+        width: auto!important;
+        min-width: 0;
+        padding: 9px 18px!important;
+        margin-bottom: 10px;
+    }
+
+    .ab-goto-cart {
+        padding: 8px!important;
+        width: 35px!important;
+        height: 35px!important;
+    }
+
+    .bookly-form .picker__holder {
+        left: 0!important;
+    }
+
+    .ab-extra-step .ab-extra {
+        width: 50%;
+    }
+
+    .ab-cart .ab-mobile-version {
+        display: table-row-group;
+    }
+
+    .ab-cart .ab-desktop-version {
+        display: none;
+    }
+}
+
+
+/* intlTelInput.js */
+.iti-flag{background-image:url("../images/flags.png");}
+@media only screen and (min-resolution: 2dppx){.iti-flag{background-image:url("../images/flags@2x.png")}}
